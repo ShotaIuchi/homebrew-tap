@@ -1,25 +1,25 @@
 class Amu < Formula
   desc "Merge multiple sources into one target with symlinks using stow"
   homepage "https://github.com/ShotaIuchi/amu"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.1/amu-aarch64-apple-darwin.tar.xz"
-      sha256 "30568d76c7f67fa9275d45ae16b81b80461afa5f5dd5f65fcbb59de37467abad"
+      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.2/amu-aarch64-apple-darwin.tar.xz"
+      sha256 "ccfc7ae5a11965b315ee5a548338410d8b1bbed0c6bf855734aaea36df661d9f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.1/amu-x86_64-apple-darwin.tar.xz"
-      sha256 "816b6a044954892053792b9c387159e18c8c1436fe1cb51ed5d9cf6ae179fb46"
+      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.2/amu-x86_64-apple-darwin.tar.xz"
+      sha256 "fd11e58c4955c5e1354ad40de6ccbc35b634c253ec5ad99d93558e65847722f8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.1/amu-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "31def2c9f754b82fcfc2c2b329c2457af106d8efa01d7f19da0065db05e36127"
+      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.2/amu-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "344855907a01c33c04935edaad9a3637f73ff4b8f7ffe0c1f7cac12ba2346fe6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.1/amu-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "83233799f9ceeb0abea0d0975730b640551ed086ea20b018b1e2a026efce1ef9"
+      url "https://github.com/ShotaIuchi/amu/releases/download/v0.1.2/amu-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "752c97c172f4de69cb5a77257c88d93afcd249e108c24591e824801e7f632a49"
     end
   end
   license "MIT"
