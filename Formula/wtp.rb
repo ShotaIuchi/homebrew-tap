@@ -1,8 +1,8 @@
 class Wtp < Formula
   desc "Worktree Plus - Enhanced worktree management with variable expansion"
   homepage "https://github.com/ShotaIuchi/wtp"
-  url "https://github.com/ShotaIuchi/wtp/archive/refs/tags/v2.8.0.tar.gz"
-  sha256 "89f0afcfb74c33cbeb4db7bd752e3657c0ec07a7f558bee7f8977fb33b13724b"
+  url "https://github.com/ShotaIuchi/wtp/archive/refs/tags/v2.9.0.tar.gz"
+  sha256 "0e4166d2fb08738536dd619fd268549b56b39208ef3187592e74f347eac59949"
   license "MIT"
   head "https://github.com/ShotaIuchi/wtp.git", branch: "main"
 
